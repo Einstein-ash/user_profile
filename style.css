@@ -5,6 +5,7 @@ body{
     align-items: center;
     height: 100dvh;
     width: 100dvw;
+    box-shadow: 10px 5px 5px red;
 }
 
 .main_container{
@@ -15,6 +16,7 @@ body{
     border-radius : 20px;
     width: 35vw;
     height: 65vh;
+    box-shadow: 10px 5px 10px rgb(118, 88, 88);
     
 }
 
