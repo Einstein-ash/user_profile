@@ -14,9 +14,10 @@ body{
     align-items: center;
     border : 1px solid black;
     border-radius : 20px;
-    width: 35vw;
-    height: 65vh;
+    width: 96svw;
+    height: 95svh;
     box-shadow: 10px 5px 10px rgb(118, 88, 88);
+    overflow: hidden;
     
 }
 
@@ -34,4 +35,11 @@ body{
 .dark_theme{
     background-color: rgb(47, 36, 36);
     color : white
+}
+
+button{
+    padding : 4px 8px 4px 8px;
+    margin : 4px;
+    border-radius: 10px;
+    width: 50%;
 }
