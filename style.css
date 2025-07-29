@@ -6,6 +6,7 @@ body{
     height: 100dvh;
     width: 100dvw;
     box-shadow: 10px 5px 5px red;
+
 }
 
 .main_container{
@@ -47,8 +48,24 @@ button{
 @media (max-width : 750px){
 
     .main_container{    
+        width: 80svw;
+        height: 90svh;
+        /* background-color: blue; */
+    }
+}
+@media (min-width : 750px){
+
+    .main_container{    
         width: 70svw;
         height: 80svh;
+        /* background-color: red; */
+    }
+}
+@media (min-width : 950px){
+
+    .main_container{    
+        width: 55svw;
+        height: 60svh;
         /* background-color: black; */
     }
 }
