@@ -44,3 +44,18 @@ button{
     width: 50%;
 }
 
+@media (max-width : 750px){
+
+    .main_container{    
+        width: 70svw;
+        height: 80svh;
+        /* background-color: black; */
+    }
+}
+@media (min-width : 1200px){
+
+    .main_container{    
+        width: 40svw;
+        height: 70svh;
+    }
+}
