@@ -26,7 +26,7 @@ theme_toggle_btn.addEventListener('click', function() {
 }
 else{
     theme_toggle_btn.innerHTML = "<p> Dark</p>"
-    theme_toggle_btn.innerHTML = "<img src='/dark.png' alt='Light' >"
+    theme_toggle_btn.innerHTML = "<img src='/dark.png' alt='dark' >"
     console.log(" light ilght ");
    }
 })
