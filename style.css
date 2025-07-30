@@ -19,6 +19,7 @@ body{
     height: 95svh;
     box-shadow: 10px 5px 10px rgb(118, 88, 88);
     overflow: hidden;
+    position: relative;
     
 }
 
@@ -44,6 +45,18 @@ button{
     border-radius: 10px;
     width: 50%;
 }
+
+.toggle_theme_btn{
+    display: inline;
+    position: absolute;
+    /* background-color: blue; */
+    bottom : 10px;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 8px 3px 10px grey;
+}
+
 
 @media (max-width : 650px){
 

@@ -20,5 +20,14 @@ const main_container_div = document.getElementById('main_container');
 theme_toggle_btn.addEventListener('click', function() {
     console.log("toggle?")
    main_container_div.classList.toggle('dark_theme');
+   if(main_container_div.classList.contains('dark_theme')){
+    theme_toggle_btn.innerHTML = "<img src='/light.png' alt='Light' >"
+    console.log("yes dark");
+}
+else{
+    theme_toggle_btn.innerHTML = "<p> Dark</p>"
+    theme_toggle_btn.innerHTML = "<img src='/dark.png' alt='Light' >"
+    console.log(" light ilght ");
+   }
 })
 
